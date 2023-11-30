@@ -1,12 +1,12 @@
 /* ----- IMPORT GLOBAL STYLING PARTIALS -------- */
-@import url(/css/_variables.css);
-@import url(/css/_resets.css);
-@import url(/css/_colors.css);
-@import url(/css/_typography.css);
-@import url(/css/_buttons.css);
-@import url(/css/_layout.css);
-@import url(/css/_structure.css);
-@import url(/css/_helpers.css);
+@import url(variables.css);
+@import url(resets.css);
+@import url(colors.css);
+@import url(typography.css);
+@import url(buttons.css);
+@import url(layout.css);
+@import url(structure.css);
+@import url(helpers.css);
 
 
 /* ----------------------------- */
