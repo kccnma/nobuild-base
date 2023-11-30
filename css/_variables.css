@@ -1,0 +1,84 @@
+/* ----------------------------- */
+/* ----- GLOBAL VARIABLES ------ */
+/* ----------------------------- */
+:root {
+
+
+    /* SET PRIMARY COLOR HSL HERE
+    --color-primarycolor-h: 210;
+    --color-primarycolor-s: 100%;
+    --color-primarycolor-l: 50%;
+    --color-primarycolor: hsl(
+        var(--color-primarycolor-h)
+        var(--color-primarycolor-s)
+        var(--color-primarycolor-s)
+    );
+    --color-primarycolor: var(--color-primarycolor);
+    --color-primarycolor-light: hsl(
+        var(--color-primarycolor-h)
+        var(--color-primarycolor-s)
+        calc(var(--color-primarycolor-l) + 20%));
+    --color-primarycolor-lighter: hsl(
+        var(--color-primarycolor-h)
+        var(--color-primarycolor-s)
+        calc(var(--color-primarycolor-l) + 40%));
+    --color-primarycolor-dark: hsl(
+        var(--color-primarycolor-h)
+        var(--color-primarycolor-s)
+        calc(var(--color-primarycolor-l) - 20%));
+    --color-primarycolor-darker: hsl(
+        var(--color-primarycolor-h)
+        var(--color-primarycolor-s)
+        calc(var(--color-primarycolor-l) - 40%)); */
+
+    /* PRIMARY COLORS ARE SET HERE  */
+    --color-primarycolor: #006699;
+    --color-primarycolor-light: #3399cc;
+    --color-primarycolor-lighter: #99ccff;
+    --color-primarycolor-dark: #003366;
+    --color-primarycolor-darker: #001133;
+
+
+    /* SECONDARY COLORS ARE SET HERE  */
+    --color-accent: #ff9966;
+    --color-accent-light: #ffcc99;
+    --color-accent-dark: #cc6633;
+
+
+    /* MAIN SITE COLORS */
+    --color-body-background: rgb(255 255 255 / 1);
+    --color-body-text: rgb(0 0 0 / .8);
+    --color-body-text-light: rgb(255 255 255 / .8);
+
+    /* MAIN LINK COLORS */
+    --color-links: #006699;
+    --color-links-light: #99ccff;
+    --color-links-dark: #003366;
+
+    /* HEADER COLORS */
+    --color-header-bg: var(--color-primarycolor-darker);
+    --color-header-text: var(--color-body-text-light);
+    --color-header-links: var(--color-primarycolor-lighter);
+
+    /* HERO COLORS */
+    --color-hero-bg: var(--color-primarycolor-lighter);
+    --color-hero-text: var(--color-primarycolor-darker);
+
+    /* FOOTER COLORS */
+    --color-footer-bg: var(--color-primarycolor-dark);
+    --color-footer-text: var(--color-body-text-light);
+    --color-footer-links: var(--color-primarycolor-lighter);
+
+    /* TYPOGRAPHY */
+    --font-body: Helvetica, Arial, sans-serif;
+    --font-headings: Georgia, sans-serif;
+    --font-sans: Helvetica, Arial, sans-serif;
+
+    /* SIZING UNITS */
+    --spacer-small: 1em;
+    --spacer-medium: 2em;
+    --spacer-large: 3em;
+    --spacer-jumbo: 4em;
+    --border-radius: 10px;
+
+}

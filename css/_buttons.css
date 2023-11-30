@@ -1,0 +1,25 @@
+.button,
+.button:visited {
+    display: inline-block;
+    padding: var(--spacer-small) var(--spacer-medium);
+    background-color: var(--color-links);
+    border: 1px solid var(--color-links);
+    color: var(--color-links-light); 
+    text-decoration: none;
+    border-radius: var(--border-radius);
+    margin-top: var(--spacer-small);
+}
+.button.alt {
+    background-color: transparent;
+    color: var(--color-links); 
+}
+.button:hover,
+.button.alt:hover {
+    background-color: var(--color-links-dark);
+    border-color: var(--color-links-dark);
+    color: var(--color-links-light); 
+}
+.button + .button {
+    margin-left: var(--spacer-small);
+}
+

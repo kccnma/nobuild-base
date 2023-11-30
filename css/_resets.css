@@ -1,0 +1,20 @@
+/* GLOBAL RESETS */
+body { margin: 0; }
+* { box-sizing: border-box; }
+
+/* ENABLE ANIMATION OF SCROLLING TO ANCHORS */
+html {
+	scroll-behavior: smooth;
+}
+
+/* RESPONSIVE IMAGES */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* RESPONSIVE SVG's */
+svg {
+    max-width: 100%;
+    height: auto;
+}

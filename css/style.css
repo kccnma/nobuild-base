@@ -1,0 +1,38 @@
+/* ----- IMPORT GLOBAL STYLING PARTIALS -------- */
+@import url(_variables.css);
+@import url(_resets.css);
+@import url(_colors.css);
+@import url(_typography.css);
+@import url(_buttons.css);
+@import url(_layout.css);
+@import url(_structure.css);
+@import url(_helpers.css);
+
+
+/* ----------------------------- */
+/* ----- CUSTOM STYLING -------- */
+/* ----------------------------- */
+
+/* CUSTOM TYPE BLOCK: HEADLINE AND SUB HEADLINE */
+.headline {
+    font-size: 4em;
+    margin: 1rem 0;
+    line-height: 1.1;
+}
+.subheadline {
+    font-size: 2em;
+    font-weight: normal;
+    margin: 1rem 0;
+}
+.runninghead {
+    font-family: var(--font-sans);
+    color: var(--color-accent);
+    font-size: .8em;
+    font-weight: bold;
+    margin: 1rem 0 1.5rem 0;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+.hero .runninghead {
+    color: var(--color-accent-dark);
+}

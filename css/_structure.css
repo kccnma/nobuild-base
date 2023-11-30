@@ -1,0 +1,17 @@
+/* ----------------------------- */
+/* ----- PAGE STRUCTURE -------- */
+/* ----------------------------- */
+
+
+/* ALL SECTIONS */
+section {
+    padding-top: var(--spacer-jumbo);
+    padding-bottom: var(--spacer-jumbo);
+}
+
+/* HERO SECTION */
+.hero {
+    background: var(--color-hero-bg);
+    color: var(--color-hero-text);
+}
+

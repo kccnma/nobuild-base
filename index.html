@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No Build Base</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <site-header></site-header>
+
+    <main class="site-main">
+
+        <section class="hero">
+            <div class="container">
+
+                <div class="row swapped">
+                    <div class="one-half">
+                        <img src="img/placeholder-800x600.svg" alt="Placeholder Image" width="1600" height="1200">
+                    </div>
+                    <div class="one-half">
+
+                        <div class="runninghead">Hero Section</div>
+                        <h1 class="headline">No Build Tool&nbsp;Needed</h1>
+                        <h2 class="subheadline">A native approach to building a modern static&nbsp;website</h2>
+                        <p>This is essentially a bare-bones, basic set of starter HTML, CSS, and JS that anyone can use and modify to begin hand-coding static website that embraces modern front-end web development techniques without the need of a build tool.</p>
+                        <a href="about.html" class="button">Learn More</a>
+                        <a href="#intro" class="button alt">Keep Reading</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="intro">
+            <div class="container">
+
+                <div class="row">
+                    <div class="one-third">
+                        <img src="img/placeholder-800x600.svg" alt="Placeholder Image" width="800" height="600">
+                        <h2>DRY CSS</h2>
+                        <p>This site uses CSS custom properties ("CSS variables") for commonly reusable styling, such as global site colors and typography, that can be easily customized.</p>
+                    </div>
+                    <div class="one-third">
+                        <img src="img/placeholder-800x600.svg" alt="Placeholder Image" width="800" height="600">
+                        <h2>Modular CSS</h2>
+                        <p>Similar to SASS, this native CSS setup imports separate _partial.css files into a singular style.css file for a more organized development experience.</p>
+                    </div>
+                    <div class="one-third">
+                        <img src="img/placeholder-800x600.svg" alt="Placeholder Image" width="800" height="600">
+                        <h2>HTML Templating</h2>
+                        <p>This site uses HTML Web Components as a simple templating solution for re-usable sections of the site, such as the global site header and footer.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+
+    </main>
+
+
+    <site-footer></site-footer>
+
+    <!-- IMPORT GLOBAL SITE COMPONENTS (eg Site Header and Footer) -->
+    <script src="components/_site-header.js" type="module"></script>
+    <script src="components/_site-footer.js" type="module"></script>
+
+</body>
+
+</html>
