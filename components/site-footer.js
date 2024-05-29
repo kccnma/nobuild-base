@@ -10,10 +10,10 @@ class siteFooter extends HTMLElement {
             color: var(--color-footer-text);
             padding: var(--spacer-large) 0; 
         }
-        .site-footer h1, 
         .site-footer h2, 
         .site-footer h3 {
             color: var(--color-footer-text);
+            font-weight: 500;
         }
         .site-footer .site-nav ul {
             list-style: none;

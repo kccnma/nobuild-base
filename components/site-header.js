@@ -25,8 +25,10 @@ class siteHeader extends HTMLElement {
             display: block;
         }
         .site-header h1 {
-            margin: 0;
+            font-family: var(--font-body);
             font-size: 1.5em;
+            font-weight: 500;
+            margin: 0;
         }
         .site-header a {
             color: var(--color-header-links);
@@ -50,8 +52,9 @@ class siteHeader extends HTMLElement {
                 <svg width="40" height="40">
                     <circle cx="20" cy="20" r="20" />
                 </svg>
+                <span class="hide-visually">No Build Base</span>
             </a>
-            <h1 class="hide-visually"><a href="index.html">No Build Base</a></h1>
+            <h1><a href="index.html">No Build Base</a></h1>
         </div>
         <nav class="site-nav">
             <ul>

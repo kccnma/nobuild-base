@@ -70,9 +70,11 @@
     --color-footer-links: var(--color-primarycolor-lighter);
 
     /* TYPOGRAPHY */
-    --font-body: Helvetica, Arial, sans-serif;
-    --font-headings: Georgia, sans-serif;
     --font-sans: Helvetica, Arial, sans-serif;
+    --font-serif: Georgia, 'Times New Roman', Times, serif;
+    --font-system: system-ui, sans-serif;
+    --font-body: var(--font-system);
+    --font-headings: var(--font-system);
 
     /* SIZING UNITS */
     --spacer-small: 1em;
