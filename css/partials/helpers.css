@@ -3,6 +3,13 @@
     top: -9999px;
     left: -9999px;
 }
+@media (max-width: 767px) {
+    .hide-visually-on-mobile {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+}
 
 /* SPACING HELPERS */
 .space-above-small::before,

@@ -57,7 +57,7 @@ class siteHeader extends HTMLElement {
                 </svg>
                 <span class="hide-visually">No Build Base</span>
             </a>
-            <h1><a href="index.html">No Build Base</a></h1>
+            <h1 class="hide-visually-on-mobile"><a href="index.html">No Build Base</a></h1>
         </div>
         <nav class="site-nav">
             <ul>
