@@ -34,7 +34,7 @@
     /* PRIMARY COLORS ARE SET HERE  */
     --color-primarycolor: #006699;
     --color-primarycolor-light: #3399cc;
-    --color-primarycolor-lighter: #99ccff;
+    --color-primarycolor-lighter: #cae2fb;
     --color-primarycolor-dark: #003366;
     --color-primarycolor-darker: #001133;
 
@@ -43,6 +43,7 @@
     --color-accent: #ff9966;
     --color-accent-light: #ffcc99;
     --color-accent-dark: #cc6633;
+    --color-accent-darker: #914018;
 
 
     /* MAIN SITE COLORS */
@@ -53,6 +54,7 @@
     /* MAIN LINK COLORS */
     --color-links: #006699;
     --color-links-light: #99ccff;
+    --color-links-lighter: #cae2fb;
     --color-links-dark: #003366;
 
     /* HEADER COLORS */

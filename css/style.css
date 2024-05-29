@@ -26,13 +26,13 @@
 }
 .runninghead {
     font-family: var(--font-sans);
-    color: var(--color-accent);
+    color: var(--color-accent-dark);
     font-size: .8em;
     font-weight: bold;
-    margin: 1rem 0 1.5rem 0;
+    margin: 2rem 0 1.5rem 0;
     text-transform: uppercase;
     letter-spacing: .1rem;
 }
 .hero .runninghead {
-    color: var(--color-accent-dark);
+    color: var(--color-accent-darker);
 }
