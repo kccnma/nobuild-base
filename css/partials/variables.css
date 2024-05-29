@@ -40,10 +40,9 @@
 
 
     /* SECONDARY COLORS ARE SET HERE  */
-    --color-accent: #ff9966;
-    --color-accent-light: #ffcc99;
-    --color-accent-dark: #cc6633;
-    --color-accent-darker: #914018;
+    --color-accent: #FF9D00;
+    --color-accent-light: #FFBD54;
+    --color-accent-dark: #C67A00;
 
 
     /* MAIN SITE COLORS */
@@ -79,10 +78,11 @@
     --font-headings: var(--font-system);
 
     /* SIZING UNITS */
-    --spacer-small: 1em;
-    --spacer-medium: 2em;
-    --spacer-large: 3em;
-    --spacer-jumbo: 4em;
+    --spacer-tiny: .5rem;
+    --spacer-small: 1rem;
+    --spacer-medium: 2rem;
+    --spacer-large: 3rem;
+    --spacer-jumbo: 4rem;
     --border-radius: 10px;
 
 }

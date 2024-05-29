@@ -3,3 +3,14 @@
     top: -9999px;
     left: -9999px;
 }
+
+/* SPACING HELPERS */
+.space-above-small::before,
+.space-above-medium::before,
+.space-above-large::before {
+    content: "";
+    display: block; 
+}
+.space-above-small::before { padding-top: var(--spacer-small); }
+.space-above-medium::before { padding-top: var(--spacer-medium); }
+.space-above-large::before { padding-top: var(--spacer-large); }

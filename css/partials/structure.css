@@ -2,10 +2,6 @@
 /* ----- PAGE STRUCTURE -------- */
 /* ----------------------------- */
 
-/* MAIN */
-.site-main { 
-    view-transition-name: main-section;
-}
 
 /* ALL SECTIONS */
 section {

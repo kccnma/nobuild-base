@@ -16,11 +16,20 @@
     padding-top: var(--spacer-large);
     padding-bottom: var(--spacer-large);
 }
+    
+.row > * {
+    margin-bottom: var(--spacer-large);
+}
+
 @media (min-width: 768px) {
     .row {
         display: grid;
         grid-template-columns: repeat(12, 1fr);
         gap: var(--gridgap);
+    }
+
+    .row > * {
+        margin-bottom: 0;
     }
 
     .row.vertical-centered {
@@ -54,7 +63,7 @@
 }
 .demo .row > * {
     background: rgb(0 0 0 / .1);
-    padding: 1em;
+    padding: var(--spacer-small);
     text-align: center;
     margin-bottom: var(--gridgap);
 }

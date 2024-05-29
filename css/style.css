@@ -8,31 +8,37 @@
 @import url(partials/structure.css);
 @import url(partials/helpers.css);
 
-
 /* ----------------------------- */
 /* ----- CUSTOM STYLING -------- */
 /* ----------------------------- */
 
+
 /* CUSTOM TYPE BLOCK: HEADLINE AND SUB HEADLINE */
 .headline {
     font-size: 4em;
-    margin: 1rem 0;
+    margin: 0 0 var(--spacer-small) 0;
+    padding: 0;
     line-height: 1.1;
 }
 .subheadline {
     font-size: 2em;
     font-weight: normal;
-    margin: 1rem 0;
+    margin: 0 0 var(--spacer-small) 0;
+    padding: 0;
 }
 .runninghead {
     font-family: var(--font-sans);
     color: var(--color-accent-dark);
     font-size: .8em;
     font-weight: bold;
-    margin: 2rem 0 1.5rem 0;
+    margin: 0 0 var(--spacer-small) 0;
+    padding: 0;
     text-transform: uppercase;
     letter-spacing: .1rem;
 }
+.runninghead + h2 {
+    padding-top: 0;
+}
 .hero .runninghead {
-    color: var(--color-accent-darker);
+    color: var(--color-accent-dark);
 }

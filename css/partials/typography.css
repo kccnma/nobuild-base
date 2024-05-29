@@ -9,6 +9,12 @@ body {
 }
 h1, h2, h3 {
     font-family: var(--font-headings);
+    margin: 0 0  var(--spacer-small) 0;
+    padding: var(--spacer-small) 0 0 0;
+}
+h1 + h2,
+h2 + h3 {
+    padding: 0;
 }
 h1 {
     font-size: 2.25em;

@@ -29,6 +29,7 @@ class siteHeader extends HTMLElement {
             font-size: 1.5em;
             font-weight: 500;
             margin: 0;
+            padding: 0;
         }
         .site-header a {
             color: var(--color-header-links);
