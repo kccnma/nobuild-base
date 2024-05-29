@@ -58,8 +58,8 @@ class siteHeader extends HTMLElement {
         </div>
         <nav class="site-nav">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><span class="hide-visually">Go to the main site</span> <a href="index.html">Home</a> <span class="hide-visually">page</span></li>
+                <li><span class="hide-visually">Go to the</span> <a href="about.html">About</a> <span class="hide-visually">sub page</span></li>
             </ul>
         </nav>
       </header>
