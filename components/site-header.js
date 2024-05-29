@@ -15,6 +15,7 @@ class siteHeader extends HTMLElement {
         }
         .site-header .site-logo {
             display: flex;
+            flex-wrap: wrap;
             align-items: center;
             gap: var(--spacer-small);
         }
@@ -39,6 +40,7 @@ class siteHeader extends HTMLElement {
             display: flex;
             list-style: none;
             margin: 0;
+            padding: 0;
         }
         .site-header .site-nav a {
             display: block;
